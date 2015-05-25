@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+<!-- 읽은 글 마스크 view 때문에  -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5.6dp"
+    android:paddingRight="8.6dp"
+    android:paddingTop="10.3dp"
+    android:paddingBottom="10.3dp"
+    android:orientation="vertical" 
+    style="?listBackground">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <TextView
+		    android:id="@+id/tv_city"
+		    android:layout_width="40dp"
+		    android:layout_height="25dp"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:text="한국"
+		    android:textColor="#ffffff"
+		    android:textSize="13sp"
+		    android:maxLines="1"
+		    android:background="@drawable/round_rect_blue"
+	   		/>
+        
+	        <TextView 
+		        android:id="@+id/tv_board_title"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:layout_marginLeft="5dp"
+		        android:gravity="center_vertical"
+		        android:text="게시글 제목 입니다.게시글 제목 입니다."
+		        android:textSize="17sp"
+		        android:lineSpacingMultiplier="1"
+		        android:includeFontPadding="false"
+		        android:maxLines="2"
+		        style="?listTitleColor"
+		        />
+	        
+	        <include layout="@layout/include_favorite_button"
+		    	android:id="@+id/tgb_favorite" />
+  	</LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.6dp"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:id="@+id/tv_board_category"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:maxLines="1"
+        	android:maxWidth="250dp"
+        	android:ellipsize="end"
+        	android:text="서울 중구 판매유통"
+        	android:textSize="13.3sp"
+        	style="?listAuthorColor"
+            />
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        
+        <TextView 
+            android:id="@+id/tv_board_date"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+	        android:includeFontPadding="false"
+	        android:text="11:34"
+	        android:textSize="13.3sp"
+	        style="?listDateColor"
+            />
+        
+    </LinearLayout>
+</LinearLayout>
+<!-- 마스크 -->
+<View 
+    android:id="@+id/view_read_mask"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:visibility="gone"
+    style="?listMaskAlpha"
+    />
+</FrameLayout>

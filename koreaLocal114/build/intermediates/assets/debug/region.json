@@ -1,0 +1,73 @@
+[{
+	"name": "전국",
+	"param": "city1=전국"
+ },
+ {
+	"name": "서울",
+	"param": "city1=서울"
+ },
+ {
+	"name": "경기",
+	"param": "city1=경기"
+ },
+ {
+	"name": "인천",
+	"param": "city1=인천"
+ },
+ {
+	"name": "부산",
+	"param": "city1=부산"
+ },
+ {
+	"name": "대구",
+	"param": "city1=대구"
+ },
+ {
+	"name": "대전",
+	"param": "city1=대전"
+ },
+ {
+	"name": "광주",
+	"param": "city1=광주"
+ },
+ {
+	"name": "세종",
+	"param": "city1=세종"
+ },
+ {
+	"name": "울산",
+	"param": "city1=울산"
+ },
+ {
+	"name": "강원",
+	"param": "city1=강원"
+ },
+ {
+	"name": "경남",
+	"param": "city1=경남"
+ },
+ {
+	"name": "경북",
+	"param": "city1=경북"
+ },
+ {
+	"name": "전남",
+	"param": "city1=전남"
+ },
+ {
+	"name": "전북",
+	"param": "city1=전북"
+ },
+ {
+	"name": "충남",
+	"param": "city1=충남"
+ },
+ {
+	"name": "충북",
+	"param": "city1=충북"
+ },
+ {
+	"name": "제주",
+	"param": "city1=제주"
+ }
+]

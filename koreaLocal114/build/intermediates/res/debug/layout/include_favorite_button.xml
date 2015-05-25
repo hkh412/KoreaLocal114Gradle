@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ToggleButton 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="40dp"
+    android:layout_height="match_parent"
+    android:paddingRight="7dp"
+    android:drawableRight="@drawable/ic_favorite_state"
+    android:background="@null"
+    android:textOn=""
+    android:textOff=""
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:layout_gravity="center_vertical"
+    />
+<!-- From: file:/D:/github.android/KoreaLocal114/koreaLocal114/src/main/res/layout/include_favorite_button.xml -->

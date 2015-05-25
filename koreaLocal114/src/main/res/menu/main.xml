@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hkh.portal114114.MainActivity" >
+
+    <item
+        android:id="@+id/action_write"
+        android:title="@string/action_write"
+        android:showAsAction="ifRoom|always"/>
+
+</menu>

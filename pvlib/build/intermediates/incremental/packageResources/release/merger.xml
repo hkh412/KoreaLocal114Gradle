@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\github.android\KoreaLocal114\pvlib\src\main\res"/><source path="D:\github.android\KoreaLocal114\pvlib\build\generated\res\rs\release"/><source path="D:\github.android\KoreaLocal114\pvlib\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="D:\github.android\KoreaLocal114\pvlib\src\release\res"/></dataSet><mergedItems/></merger>

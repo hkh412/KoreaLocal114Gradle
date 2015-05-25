@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+	    android:background="#ffffff">
+	
+	    <LinearLayout
+	        android:id="@+id/layout_region"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	       	android:gravity="bottom"
+	        android:orientation="horizontal"
+	        android:visibility="visible">
+	        
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:text="지역"
+		        android:textSize="17sp"
+		        android:textColor="#0b7ab3" />
+		    
+		    <Spinner 
+		        android:id="@+id/spinner_city1"
+		        android:layout_width="0dp"
+		        android:layout_height="48dp"
+		        android:layout_weight="1"
+		        android:layout_gravity="center"
+		        android:entries="@array/city1_array"/>
+		    
+		   <Spinner 
+		        android:id="@+id/spinner_city2"
+		        android:layout_width="0dp"
+		        android:layout_height="48dp"
+		        android:layout_weight="1"
+		        android:layout_gravity="center" />
+		    
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/layout_category"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:gravity="bottom"
+	        android:orientation="horizontal"
+	        android:visibility="visible">
+	        
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:text="분류"
+		        android:textSize="17sp"
+		        android:textColor="#0b7ab3" />
+		    
+		    <Spinner 
+		        android:id="@+id/spinner_cate1"
+		        android:layout_width="0dp"
+		        android:layout_height="48dp"
+		        android:layout_weight="1"
+		        android:layout_gravity="center"
+		        android:entries="@array/cate1_array"
+		        />
+		    
+		    <Spinner 
+		        android:id="@+id/spinner_cate2"
+		        android:layout_width="0dp"
+		        android:layout_height="48dp"
+		        android:layout_weight="1"
+		        android:layout_gravity="center"
+		        android:entries="@array/cate2_array"
+		        />
+		    
+	    </LinearLayout>
+	
+	    
+	    <EditText
+	        android:id="@+id/et_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:lines="1"
+	        android:maxLines="1"
+	        android:hint="제목을 입력하세요."
+	        />
+	    
+	    <EditText 
+	        android:id="@+id/et_content"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+	        android:hint="내용을 입력하세요."
+	        android:lines="8"
+	        />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:orientation="horizontal">
+	        
+	        <Button
+		        android:id="@+id/btn_send_write"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		       	android:layout_weight="1"
+		        android:text="@string/label_ok"/>
+	        
+	        <Button
+	            android:id="@+id/btn_cancel_write"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" 
+	            android:layout_weight="1"
+	            android:text="@string/label_cancel"/>
+	        
+	    </LinearLayout>
+	</LinearLayout>
+    <include layout="@layout/include_progress_layout" />
+</FrameLayout>
+<!-- From: file:/D:/github.android/KoreaLocal114/koreaLocal114/src/main/res/layout/activity_write.xml -->

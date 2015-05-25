@@ -1,0 +1,57 @@
+[{
+	"uid": "3",
+	"id": "job",
+	"name": "구인정보",
+	"url": "board.php?bo_mode=list&bo_table=job",
+	"type": ""
+ }, 
+ {
+	"uid": "4",
+	"id": "resume",
+	"name": "구직정보",
+	"url": "board.php?bo_mode=list&bo_table=resume",
+	"type": ""
+ }, 
+ {
+	"uid": "5",
+	"id": "house",
+	"name": "부동산",
+	"url": "board.php?bo_mode=list&bo_table=house",
+	"type": ""
+ },
+ {
+	"uid": "6",
+	"id": "sale",
+	"name": "중고시장",
+	"url": "board.php?bo_mode=list&bo_table=sale",
+	"type": ""
+ },
+ {
+	"uid": "7",
+	"id": "car",
+	"name": "중고차",
+	"url": "board.php?bo_mode=list&bo_table=car",
+	"type": ""
+ },
+ {
+	"uid": "8",
+	"id": "service",
+	"name": "업체광고",
+	"url": "board.php?bo_mode=list&bo_table=service",
+	"type": ""
+ },
+ {
+	"uid": "1",
+	"id": "favorite",
+	"name": "즐겨찾기",
+	"url": "",
+	"type": ""
+ },
+ {
+	"uid": "2",
+	"id": "mypost",
+	"name": "내가쓴글",
+	"url": "",
+	"type": ""
+ }
+]

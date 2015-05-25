@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+			<solid android:color="#f6f6f6" />
+		</shape>
+    </item>
+    
+    <!-- focused -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+			<solid android:color="#f6f6f6" />
+		</shape>
+    </item>
+    
+    <!-- normal -->
+    <item>
+        <shape android:shape="rectangle">
+			<solid android:color="#ffffff" />
+		</shape>
+    </item>
+</selector>
+<!-- From: file:/D:/github.android/KoreaLocal114/koreaLocal114/src/main/res/drawable/selector_menu_child_bg_wh.xml -->
